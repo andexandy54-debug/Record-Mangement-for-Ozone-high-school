@@ -1,31 +1,59 @@
 <!DOCTYPE html>
-<section class="about-us">
-    <h1>About Ozone High School</h1>
+<html lang="en">
 
-    <p>
-        Ozone High School is a dedicated educational institution committed 
-        to academic excellence, discipline, and character development. 
-        We provide a supportive and inspiring learning environment where 
-        students are encouraged to reach their full potential.
-    </p>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About - Ozone High School</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <p>
-        To improve efficiency and transparency, the school has implemented 
-        a modern Record Management System. This system securely manages 
-        student academic records, attendance, performance reports, and 
-        administrative data.
-    </p>
+<body class="site-body">
+    <!-- 1. PERSISTENT HEADER (Same on every page) -->
+    <header class="site-header">
+        <h1 class="logo">Ozone High School</h1>
+        <nav class="main-nav">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About us</a>
+            <div class="dropdown">
+                <a href="Admissions.html" class="dropbtn">Admissions</a>
+                <div class="dropdown-content">
+                    <a href="Admissions.html#process">Apply Now</a>
+                    <a href="Admissions.html#requirements">Requirements</a>
+                    <a href="Admissions.html#dates">Important Dates</a>
+                </div>
+            </div>
+            <a href="Academic.html">Academic</a>
+            <a href="Staff.html">Staff</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="index.html">Login</a>
+        </nav>
+    </header>
 
-    <p>
-        Our goal is to combine quality education with innovative technology 
-        to ensure accurate record keeping, better communication, and 
-        improved academic monitoring for students, teachers, and parents.
-    </p>
+    <!-- 2. MAIN CONTENT (Original About Page Content) -->
+    <main>
+        <section class="about-us">
+            <h1>About Ozone High School</h1>
+            <p>
+                Ozone High School is a dedicated educational institution committed
+                to academic excellence, discipline, and character development.
+                We provide a supportive and inspiring learning environment where
+                students are encouraged to reach their full potential.
+            </p>
+            <p>
+                To improve efficiency and transparency, the school has implemented
+                a modern Record Management System. This system securely manages
+                student academic records, attendance, performance reports, and
+                administrative data.
+            </p>
+            <p style="text-align: center;"><b><a href="Home.html">Back to Home</a></b></p>
+        </section>
+    </main>
 
-    <p>
-        At Ozone High School, we believe that education, responsibility, 
-        and innovation build the foundation for a successful future.
-    </p>
-    <p style="text-align: center;"><b><a href="Home.html">Back to Home</a></b></p>
-    <p style="text-align: center;"><b><a href="Admissions.html">Go to Admissions</a></b></p>
-</section>
+    <!-- 3. THE PERSISTENT FOOTER (Same on every page) -->
+    <footer class="site-footer">
+        <small>© Ozone High School || Record Management</small>
+    </footer>
+</body>
+
+</html>

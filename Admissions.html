@@ -1,31 +1,68 @@
-<section class="admissions">
-    <h2>Admissions</h2>
+<!DOCTYPE html>
+<html lang="en">
 
-    <p>
-        Ozone High School welcomes students who are committed to academic 
-        excellence, discipline, and personal growth. <br> admissions process 
-        is designed to ensure that every student is prepared to succeed in 
-        a supportive and structured learning environment.
-    </p>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admissions - Ozone High School</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <p>
-        Applicants are required to submit previous academic records, 
-        complete the official admission form, and meet the school's 
-        academic requirements. Admission decisions are based on academic 
-        performance, conduct, and available space.
-    </p>
+<body class="site-body">
+    <!-- 1. PERSISTENT HEADER (Same on every page) -->
+    <header class="site-header">
+        <h1 class="logo">Ozone High School</h1>
+        <nav class="main-nav">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About us</a>
+            <div class="dropdown">
+                <a href="Admissions.html" class="dropbtn">Admissions</a>
+                <div class="dropdown-content">
+                    <a href="Admissions.html#process">Apply Now</a>
+                    <a href="Admissions.html#requirements">Requirements</a>
+                    <a href="Admissions.html#dates">Important Dates</a>
+                </div>
+            </div>
+            <a href="Academic.html">Academic</a>
+            <a href="Staff.html">Staff</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="index.html">Login</a>
+        </nav>
+    </header>
 
-    <p>
-        Once admitted, student information is securely registered in our 
-        Record Management System to ensure accurate tracking of academic 
-        progress, attendance, and performance reports.
-    </p>
+    <!-- 2. MAIN CONTENT (Original Admissions Content) -->
+    <main>
+        <section class="admissions">
+            <h2 id="process">Admissions & Enrollment</h2>
+            <p>
+                Ozone High School welcomes students who are committed to academic
+                excellence, discipline, and personal growth. <br>Our admissions process
+                is designed to ensure that every student is prepared to succeed.
+            </p>
 
-    <p>
-        For more information about enrollment dates, requirements, and 
-        procedures, please contact the school administration office.
-    </p>
-    <a href="Home.html">Back to Home Page</a>
-    <a href="About.html">Back to About Page</a>
-    <a href="Academic.html">Go to Academics Page</a>
-</section>
+            <h3 id="requirements">Requirements</h3>
+            <p>
+                Applicants are required to submit previous academic records,
+                complete the official admission form, and meet the school's
+                academic requirements.
+            </p>
+
+            <h3 id="dates">Important Dates</h3>
+            <p>
+                Fall enrollment begins in August. Spring enrollment begins in January.
+            </p>
+
+            <p style="text-align: center;">
+                <a href="Home.html">Back to Home Page</a> |
+                <a href="Academic.html">Go to Academics Page</a>
+            </p>
+        </section>
+    </main>
+
+    <!-- 3. THE PERSISTENT FOOTER (Same on every page) -->
+    <footer class="site-footer">
+        <small>© Ozone High School || Record Management</small>
+    </footer>
+</body>
+
+</html>

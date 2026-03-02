@@ -1,34 +1,58 @@
-<section class="academics">
-    <h2>Academics</h2>
+<!DOCTYPE html>
+<html lang="en">
 
-    <p>
-        Ozone High School provides a comprehensive and well-structured 
-        academic program designed to prepare students for higher education 
-        and future careers. <br>Our curriculum promotes critical thinking, 
-        creativity, discipline, and academic excellence.
-    </p>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Academics - Ozone High School</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <h3>Academic Programs</h3>
-    <ul>
-        <li><a href="Mathematics.html">Mathematics Department</a></li><br>
-        <li><a href="Natural_Sciences.html">Natural Sciences Department</a></li><br>
-        <li><a href="Social_Sciences.html">Social Sciences Department</a></li><br>
-        <li><a href="Languages.html">Languages Department</a></li><br>
-        <li><a href="Information_Technology.html">Information Technology</a></li>
-    </ul>
+<body class="site-body">
+    <!-- 1. PERSISTENT HEADER (Same on every page) -->
+    <header class="site-header">
+        <h1 class="logo">Ozone High School</h1>
+        <nav class="main-nav">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About us</a>
+            <div class="dropdown">
+                <a href="Admissions.html" class="dropbtn">Admissions</a>
+                <div class="dropdown-content">
+                    <a href="Admissions.html#process">Apply Now</a>
+                    <a href="Admissions.html#requirements">Requirements</a>
+                    <a href="Admissions.html#dates">Important Dates</a>
+                </div>
+            </div>
+            <a href="Academic.html">Academic</a>
+            <a href="Staff.html">Staff</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="index.html">Login</a>
+        </nav>
+    </header>
 
-    <h3>Academic Services</h3>
-    <ul>
-        <li><a href="Class_Schedules.html">Class Schedules</a></li><br>
-        <li><a href="Examination_Timetable.html">Examination Timetable</a></li><br>
-        <li><a href="Student_Performance_Reports.html">Student Performance Reports</a></li><br>
-        <li><a href="Attendance_Records.html">Attendance Records</a></li><br>
-        <li><a href="Academic_Calendar.html">Academic Calendar</a></li>
-    </ul>
+    <!-- 2. MAIN CONTENT (Original Academics Content) -->
+    <main>
+        <section class="academics">
+            <h2>Academics</h2>
+            <p>
+                Ozone High School provides a comprehensive academic program
+                designed to prepare students for higher education.
+            </p>
+            <h3>Academic Programs</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li>Mathematics Department</li>
+                <li>Natural Sciences Department</li>
+                <li>Social Sciences Department</li>
+                <li>Languages Department</li>
+                <li>Information Technology</li>
+            </ul>
+        </section>
+    </main>
 
-    <p>
-        Through our Record Management System, students, teachers, and 
-        administrators can securely access academic records, track progress, 
-        and monitor performance efficiently.
-    </p>
-</section>
+    <!-- 3. THE PERSISTENT FOOTER (Same on every page) -->
+    <footer class="site-footer">
+        <small>© Ozone High School || Record Management</small>
+    </footer>
+</body>
+
+</html>

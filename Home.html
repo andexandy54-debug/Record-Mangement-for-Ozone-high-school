@@ -1,37 +1,66 @@
 <!DOCTYPE html>
-<section class="home-intro"></section>
-<h1>Welcome to Ozone High School</h1>
-<h4>Record Management for Ozone High School</h4>
-    <p>
-        A simple, secure and modern way to store student records and school data moving from paper to digital.<br>
-        The Ozone High School Record Management System is a secure and 
-        user-friendly platform designed to manage student academic records, 
-        attendance, and performance efficiently.
-    </p>
-    <p>
-        This system allows administrators, teachers, students, and parents 
-        to access important school information through a secure login portal. 
-        It ensures accurate record keeping, transparency,<br> and effective 
-        communication within the school community.
-        Ozone High School is committed to providing quality education 
-        that empowers students to achieve academic excellence and develop 
-        strong moral values.<br> Our school creates a supportive learning 
-        environment where students are encouraged to grow, explore, 
-        and succeed. 
-    </p>
+<html lang="en">
 
-    <p>
-        With this digital system, Ozone High School improves organization, 
-        reduces paperwork, and enhances academic monitoring for better 
-        student success.
-        We offer a wide range of academic programs, <br>extracurricular 
-        activities, and modern learning facilities designed to prepare 
-        students for higher education and future careers.
-    </p>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home - Ozone High School</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <p>
-        At Ozone High School, we believe in discipline, innovation, 
-        and leadership. Together, we build a brighter future.
-    </p>
-    <p style="text-align: center;"><b><a href="About.html">Go to About Page</a></b></p>
-</section>
+<body class="site-body">
+    <!-- 1. PERSISTENT HEADER (Same on every page) -->
+    <header class="site-header">
+        <h1 class="logo">Ozone High School</h1>
+        <nav class="main-nav">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About us</a>
+            <div class="dropdown">
+                <a href="Admissions.html" class="dropbtn">Admissions</a>
+                <div class="dropdown-content">
+                    <a href="Admissions.html#process">Apply Now</a>
+                    <a href="Admissions.html#requirements">Requirements</a>
+                    <a href="Admissions.html#dates">Important Dates</a>
+                </div>
+            </div>
+            <a href="Academic.html">Academic</a>
+            <a href="Staff.html">Staff</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="index.html">Login</a>
+        </nav>
+    </header>
+
+    <!-- 2. MAIN CONTENT (Original Home Page Content) -->
+    <main>
+        <section class="home-intro">
+            <h1>Welcome to Ozone High School</h1>
+            <h4>Record Management for Ozone High School</h4>
+            <p>
+                A simple, secure and modern way to store student records and school data moving from paper to
+                digital.<br>
+                The Ozone High School Record Management System is a secure and
+                user-friendly platform designed to manage student academic records,
+                attendance, and performance efficiently.
+            </p>
+            <p>
+                This system allows administrators, teachers, students, and parents
+                to access important school information through a secure login portal.
+                It ensures accurate record keeping, transparency,<br> and effective
+                communication within the school community.
+                Ozone High School is committed to providing quality education
+                that empowers students to achieve academic excellence and develop
+                strong moral values.<br> Our school creates a supportive learning
+                environment where students are encouraged to grow, explore,
+                and succeed.
+            </p>
+            <p style="text-align: center;"><b><a href="About.html">Learn more on the About Page</a></b></p>
+        </section>
+    </main>
+
+    <!-- 3. THE PERSISTENT FOOTER (Same on every page) -->
+    <footer class="site-footer">
+        <small>© Ozone High School || Record Management</small>
+    </footer>
+</body>
+
+</html>
